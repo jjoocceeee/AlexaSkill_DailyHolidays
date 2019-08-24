@@ -1,0 +1,29 @@
+{
+  "PossibleIntents":{
+    "intent": {
+      "name": "TodaysHolidayIntent",
+      "confirmationStatus": "NONE"
+    },
+    "intent": {
+      "name": "AMAZON.SearchAction<object@Calendar>", 
+      "slots": {
+          "object.event.type": {
+              "name": "object.event.type", 
+              "value": "event"
+          }, 
+          "object.owner.name": {
+              "name": "object.owner.name", 
+              "value": "my"
+          }, 
+          "object.type": {
+              "name": "object.type", 
+              "value": "calendar"
+          }, 
+          "object.event.startDate": {
+              "name": "object.event.startDate", 
+              "value": "2016-11-25"
+          }
+      }
+    }
+  }
+}
